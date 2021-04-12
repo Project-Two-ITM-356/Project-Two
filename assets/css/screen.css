@@ -82,3 +82,13 @@ ul.nav {
 }
 
 
+/*Main Formating*/
+main {
+  border: 8px solid #efefef;
+  border-bottom: 0;
+  border-top: 0;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+
