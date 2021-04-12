@@ -123,3 +123,7 @@ footer {
     margin-top: 5%;
   }
 
+@media screen and (min-width: 730px) {
+  header, nav, main, footer {
+    filter: drop-shadow(15px 10px 4px #929595);
+  }
