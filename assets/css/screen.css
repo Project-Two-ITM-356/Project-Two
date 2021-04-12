@@ -25,3 +25,11 @@ header, nav, main, footer {
 }
 
 
+/*Header Formating*/
+header {
+  padding: 10px 12px 10px 12px;
+  border: 8px solid #efefef;
+  border-bottom: 0;
+  background: rgb(14,53,94);
+  background: linear-gradient(0deg, rgba(14,53,94,1) 0%, rgba(43,108,163,1) 45%, rgba(84,133,176,1) 100%);
+}
