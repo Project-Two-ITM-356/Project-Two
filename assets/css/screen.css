@@ -127,3 +127,33 @@ footer {
   header, nav, main, footer {
     filter: drop-shadow(15px 10px 4px #929595);
   }
+  /* Navigation */
+  .nav {
+      display: flex;
+      padding-top: 12px;
+  }
+  .nav li {
+    text-align: center;
+
+    /*Layout w/ floats */
+    float: left;
+    width: 33.33333333333%;
+
+    /* layout w/ flexbox*/
+    flex: 1 1 auto;
+  }
+  @supports (display: flex) {
+    .nav li {
+      width: auto;
+    }
+  }
+  .nav a {
+    margin-right: 2px;
+  }
+  .nav li:last-child {
+    margin-right: 0;
+  }
+  ul.nav {
+    padding-bottom: 13px;
+  }
+
