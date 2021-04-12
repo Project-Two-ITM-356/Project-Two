@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+
+
+/*Overall Page Formating*/
+html {
+  font-family: Comfortaa, Georgia, "Times New Roman", sans-serif;
+  line-height: 24px;
+  padding: 12px;
+  background-color: #DBDCDC;
+}
+@supports (display: grid) {
+  /* No L/R padding when we have grid...*/
+  html { padding: 24px 0; }
+}
+
+body {
+  /* ...because we'll use columns to keep the content away from the edge of the viewport */
+  display: grid;
+  grid-template-columns: minmax(12px,1fr) minmax(min-content,120ch) minmax(12px,1fr);
+}
+
+header, nav, main, footer {
+  grid-column: 2/3;
+  background-color: #efefef;
+}
+
+
+/*Header Formating*/
+header {
+  padding: 10px 12px 10px 12px;
+  border: 8px solid #efefef;
+  border-bottom: 0;
+  background: rgb(14,53,94);
+  background: linear-gradient(0deg, rgba(14,53,94,1) 0%, rgba(43,108,163,1) 45%, rgba(84,133,176,1) 100%);
+}
+.logo {
+  padding-top: 16px;
+  padding-right: 14px;
+  float: left;
+  width: 23%;
+  filter: drop-shadow(9px 6px 4px #022951);
+}
+.title {
+  line-height: 40px;
+  color: white;
+  font-size: 2em;
+}
+
+
+/*Navigation Formating*/
+#nav {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.nav a {
+  display: block;
+  text-decoration: none;
+  background: rgb(83,132,175);
+  background: radial-gradient(circle, rgba(83,132,175,1) 0%, rgba(38,99,152,1) 49%, rgba(14,53,94,1) 100%);
+  color: white;
+  padding: 16px;
+  margin-right: auto;
+}
+ul.nav {
+  padding-top: 8px;
+  border: 8px solid #efefef;
+  border-bottom: 0;
+  border-top: 0;
+}
+.nav li {
+  text-align: center;
+  margin-right: auto;
+  border-bottom: 1px solid #DBDCDC;
+}
+.nav a:hover {
+  background: #22167a;
+}
+.nav li:last-child {
+  border-bottom: 0;
+}
+
+
+/*Main Formating*/
+main {
+  border: 8px solid #efefef;
+  border-bottom: 0;
+  border-top: 0;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+
+/*footer formating*/
+footer {
+  border-top: 3px solid #dddddd;
+  border-radius: 10px;
+  padding-bottom: 24px;
+
+}
+.footerlist1, .footerlist2 {
+  padding-top: 24px;
+  padding-left: 5%;
+}
+.foot {
+  padding-left: 12px;
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+.f1, .f2 {
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+
+@media screen and (min-width: 534px) {
+  .logo {
+    padding-bottom: 16px;
+    filter: drop-shadow(10px 10px 4px #022951);
+  }
+  .title {
+    margin-top: 5%;
+  }
+
+@media screen and (min-width: 730px) {
+  header, nav, main, footer {
+    filter: drop-shadow(15px 10px 4px #929595);
+  }
+  /* Navigation */
+  .nav {
+      display: flex;
+      padding-top: 12px;
+  }
+  .nav li {
+    text-align: center;
+
+    /*Layout w/ floats */
+    float: left;
+    width: 33.33333333333%;
+
+    /* layout w/ flexbox*/
+    flex: 1 1 auto;
+  }
+  @supports (display: flex) {
+    .nav li {
+      width: auto;
+    }
+  }
+  .nav a {
+    margin-right: 2px;
+  }
+  .nav li:last-child {
+    margin-right: 0;
+  }
+  ul.nav {
+    padding-bottom: 13px;
+  }
+
+@media screen and (min-width: 900px) {
+  .logo {
+    width: 15%;
+    filter: drop-shadow(15px 10px 4px #022951);
+    padding-right: 20px;
+  }
+  ul.footerlist1, ul.footerlist2 {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    padding-left: 15%;
+  }
