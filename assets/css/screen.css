@@ -40,3 +40,10 @@ header {
   width: 23%;
   filter: drop-shadow(9px 6px 4px #022951);
 }
+.title {
+  line-height: 40px;
+  color: white;
+  font-size: 2em;
+}
+
+
