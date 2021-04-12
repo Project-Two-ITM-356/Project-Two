@@ -47,3 +47,38 @@ header {
 }
 
 
+/*Navigation Formating*/
+#nav {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.nav a {
+  display: block;
+  text-decoration: none;
+  background: rgb(83,132,175);
+  background: radial-gradient(circle, rgba(83,132,175,1) 0%, rgba(38,99,152,1) 49%, rgba(14,53,94,1) 100%);
+  color: white;
+  padding: 16px;
+  margin-right: auto;
+}
+ul.nav {
+  padding-top: 8px;
+  border: 8px solid #efefef;
+  border-bottom: 0;
+  border-top: 0;
+}
+.nav li {
+  text-align: center;
+  margin-right: auto;
+  border-bottom: 1px solid #DBDCDC;
+}
+.nav a:hover {
+  background: #22167a;
+}
+.nav li:last-child {
+  border-bottom: 0;
+}
+
+
