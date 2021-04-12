@@ -33,3 +33,10 @@ header {
   background: rgb(14,53,94);
   background: linear-gradient(0deg, rgba(14,53,94,1) 0%, rgba(43,108,163,1) 45%, rgba(84,133,176,1) 100%);
 }
+.logo {
+  padding-top: 16px;
+  padding-right: 14px;
+  float: left;
+  width: 23%;
+  filter: drop-shadow(9px 6px 4px #022951);
+}
