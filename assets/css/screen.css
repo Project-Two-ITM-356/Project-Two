@@ -92,3 +92,10 @@ main {
 }
 
 
+/*footer formating*/
+footer {
+  border-top: 3px solid #dddddd;
+  border-radius: 10px;
+  padding-bottom: 24px;
+
+}
