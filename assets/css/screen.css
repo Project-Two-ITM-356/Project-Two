@@ -99,3 +99,18 @@ footer {
   padding-bottom: 24px;
 
 }
+.footerlist1, .footerlist2 {
+  padding-top: 24px;
+  padding-left: 5%;
+}
+.foot {
+  padding-left: 12px;
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+.f1, .f2 {
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+
