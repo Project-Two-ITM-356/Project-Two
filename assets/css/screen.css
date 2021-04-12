@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+
+
+/*Overall Page Formating*/
+html {
+  font-family: Comfortaa, Georgia, "Times New Roman", sans-serif;
+  line-height: 24px;
+  padding: 12px;
+  background-color: #DBDCDC;
+}
