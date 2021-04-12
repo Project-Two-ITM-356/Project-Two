@@ -8,3 +8,20 @@ html {
   padding: 12px;
   background-color: #DBDCDC;
 }
+@supports (display: grid) {
+  /* No L/R padding when we have grid...*/
+  html { padding: 24px 0; }
+}
+
+body {
+  /* ...because we'll use columns to keep the content away from the edge of the viewport */
+  display: grid;
+  grid-template-columns: minmax(12px,1fr) minmax(min-content,120ch) minmax(12px,1fr);
+}
+
+header, nav, main, footer {
+  grid-column: 2/3;
+  background-color: #efefef;
+}
+
+
