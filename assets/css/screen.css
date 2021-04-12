@@ -114,3 +114,12 @@ footer {
 }
 
 
+@media screen and (min-width: 534px) {
+  .logo {
+    padding-bottom: 16px;
+    filter: drop-shadow(10px 10px 4px #022951);
+  }
+  .title {
+    margin-top: 5%;
+  }
+
