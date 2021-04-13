@@ -117,26 +117,26 @@ footer {
 
 /*CSS Specifically for About Us Page*/
 
-h1.auTitle {
+h1.auTitle, h1.cuTitle {
   font-size: 1.5em;
   padding-top: 12px;
   padding-bottom: 8px;
 }
-h2.auTitle {
+h2.auTitle, h2.cuTitle {
   font-size: 1.25em;
   padding-top: 36px;
   padding-bottom: 24px;
 }
-h3.auWidget {
+h3.auWidget, h3.cuWidget {
   font-size: 1.15em;
   padding-bottom: 12px;
   margin-left: 20%;
 }
-div.auWidget {
+div.auWidget, div.cuWidget {
   padding-top: 8px;
   border: 4px groove #dddddd;
 }
-ul.auWidget {
+ul.auWidget, ul.cuWidget {
   margin-left: 25%;
   padding-bottom: 12px;
   list-style-type: square;
