@@ -188,6 +188,17 @@ ul.auWidget {
   .title {
     margin-top: 5%;
   }
+  div.auWidget {
+    float: right;
+    padding-left: 36px;
+  }
+  h3.auWidget{
+    margin-left: 10%;
+  }
+  ul.auWidget {
+    margin-left: 15%;
+  }
+}
 
 @media screen and (min-width: 730px) {
   header, nav, main, footer {
