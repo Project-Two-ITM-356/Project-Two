@@ -181,6 +181,44 @@ ul.auWidget, ul.cuWidget {
 }
 
 
+/*CSS Specifically for Home Page*/
+
+h1.hTitle {
+  font-size: 1.5em;
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
+p.home1 {
+  font-size: 17px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+p.home2 {
+  font-size: 17px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+p.home3 {
+  font-size: 17px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+p.home4 {
+  font-size: 17px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+p.home5 {
+  font-size: 17px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.slideshow {
+  text-align: center;
+  width: 100%;
+}
+
+
 /*CSS Specfically for Contact Us*/
 form.main {
   border: 4px solid #bbbbbb;
