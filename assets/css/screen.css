@@ -114,6 +114,72 @@ footer {
 }
 
 
+
+/*CSS Specifically for About Us Page*/
+
+h1.auTitle {
+  font-size: 1.5em;
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
+h2.auTitle {
+  font-size: 1.25em;
+  padding-top: 36px;
+  padding-bottom: 24px;
+}
+h3.auWidget {
+  font-size: 1.15em;
+  padding-bottom: 12px;
+  margin-left: 20%;
+}
+div.auWidget {
+  padding-top: 8px;
+  border: 4px groove #dddddd;
+}
+ul.auWidget {
+  margin-left: 25%;
+  padding-bottom: 12px;
+  list-style-type: square;
+}
+.aboutUs {
+  font-size: 17px;
+  padding-top: 48px;
+  padding-bottom: 16px;
+}
+.aboutQuestions {
+  list-style-type: georgian;
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
+.auItem {
+  padding-bottom: 12px;
+}
+.advertisement {
+  padding-top: 36px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.auImage1 {
+  float: left;
+  width: 30%;
+  padding-right: 16px;
+  padding-top: 24px;
+}
+.auImage2 {
+  float:right;
+  width: 25%;
+  padding-top: 72px;
+}
+.auImage3 {
+  float: left;
+  width: 20%;
+}
+.auImage4 {
+  float: right;
+  width: 28%;
+  padding-top: 36px;
+}
+
 @media screen and (min-width: 534px) {
   .logo {
     padding-bottom: 16px;
@@ -122,6 +188,17 @@ footer {
   .title {
     margin-top: 5%;
   }
+  div.auWidget {
+    float: right;
+    padding-left: 36px;
+  }
+  h3.auWidget{
+    margin-left: 10%;
+  }
+  ul.auWidget {
+    margin-left: 15%;
+  }
+}
 
 @media screen and (min-width: 730px) {
   header, nav, main, footer {
@@ -157,6 +234,13 @@ footer {
     padding-bottom: 13px;
   }
 
+
+/*About Us CSS*/
+.auImage2 {
+  padding-top: 60px;
+}
+
+
 @media screen and (min-width: 900px) {
   .logo {
     width: 15%;
@@ -169,4 +253,20 @@ footer {
     margin-right: auto;
     width: 35%;
     padding-left: 15%;
+  }
+
+
+  /*About Us CSS*/
+  .auImage1 {
+    width: 20%;
+  }
+  .auImage2 {
+    padding-top: 84px;
+    width: 15%;
+  }
+  .auImage3 {
+    width: 13%;
+  }
+  .auImage4 {
+    width: 16%;
   }
