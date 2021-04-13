@@ -241,6 +241,8 @@ ul.cuWidget:last-child {
 }
 
 @media screen and (min-width: 534px) {
+
+/*About Us CSS*/
   .logo {
     padding-bottom: 16px;
     filter: drop-shadow(10px 10px 4px #022951);
@@ -257,6 +259,15 @@ ul.cuWidget:last-child {
   }
   ul.auWidget {
     margin-left: 15%;
+  }
+
+
+  /*Contact Us CSS*/
+  button {
+    margin-left: 15%;
+  }
+  .cuLogo {
+    width: 30%;
   }
 }
 
@@ -299,6 +310,32 @@ ul.cuWidget:last-child {
 .auImage2 {
   padding-top: 60px;
 }
+  .auImage2 {
+    padding-top: 45%;
+  }
+
+
+  /*Contact Us CSS*/
+  div.container {
+    display:flex;
+    justify-content: space-between;
+  }
+  form.main {
+    flex-basis: 65%;
+  }
+  div.cuWidget {
+    flex-basis: 30%;
+    margin-top: 4px;
+  }
+  textarea {
+    margin-left: 5%
+  }
+  .cuLogo {
+    width: 60%;
+  }
+  li.cuWidget {
+    padding-bottom: 8px;
+  }
 
 
 @media screen and (min-width: 900px) {
