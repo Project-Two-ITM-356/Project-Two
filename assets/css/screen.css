@@ -209,6 +209,13 @@ h2.auTitle {
     padding-bottom: 13px;
   }
 
+
+/*About Us CSS*/
+.auImage2 {
+  padding-top: 60px;
+}
+
+
 @media screen and (min-width: 900px) {
   .logo {
     width: 15%;
@@ -221,4 +228,20 @@ h2.auTitle {
     margin-right: auto;
     width: 35%;
     padding-left: 15%;
+  }
+
+
+  /*About Us CSS*/
+  .auImage1 {
+    width: 20%;
+  }
+  .auImage2 {
+    padding-top: 84px;
+    width: 15%;
+  }
+  .auImage3 {
+    width: 13%;
+  }
+  .auImage4 {
+    width: 16%;
   }
