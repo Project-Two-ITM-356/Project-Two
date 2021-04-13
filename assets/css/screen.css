@@ -145,6 +145,27 @@ h2.auTitle {
   padding-left: 24px;
   padding-right: 24px;
 }
+.auImage1 {
+  float: left;
+  width: 30%;
+  padding-right: 16px;
+  padding-top: 24px;
+}
+.auImage2 {
+  float:right;
+  width: 25%;
+  padding-top: 72px;
+}
+.auImage3 {
+  float: left;
+  width: 20%;
+}
+.auImage4 {
+  float: right;
+  width: 28%;
+  padding-top: 36px;
+}
+
 @media screen and (min-width: 534px) {
   .logo {
     padding-bottom: 16px;
