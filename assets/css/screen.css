@@ -127,6 +127,20 @@ h2.auTitle {
   padding-top: 36px;
   padding-bottom: 24px;
 }
+h3.auWidget {
+  font-size: 1.15em;
+  padding-bottom: 12px;
+  margin-left: 20%;
+}
+div.auWidget {
+  padding-top: 8px;
+  border: 4px groove #dddddd;
+}
+ul.auWidget {
+  margin-left: 25%;
+  padding-bottom: 12px;
+  list-style-type: square;
+}
 .aboutUs {
   font-size: 17px;
   padding-top: 48px;
