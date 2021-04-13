@@ -214,7 +214,7 @@ button {
 }
 button:hover {
   background: rgb(14,53,94);
-  background: linear-gradient(240deg, rgba(14,53,94,1) 0%, rgba(75,126,171,1) 38%, rgba(35,94,145,1) 100%); 
+  background: linear-gradient(240deg, rgba(14,53,94,1) 0%, rgba(75,126,171,1) 38%, rgba(35,94,145,1) 100%);
   color: #ffffff;
 }
 div.cuWidget {
@@ -239,6 +239,7 @@ ul.cuWidget:last-child {
   border: 4px solid #dddddd;
   filter: drop-shadow(12px 18px 5px #bbbbbb);
 }
+
 @media screen and (min-width: 534px) {
   .logo {
     padding-bottom: 16px;
