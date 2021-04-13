@@ -114,6 +114,19 @@ footer {
 }
 
 
+
+/*CSS Specifically for About Us Page*/
+
+h1.auTitle {
+  font-size: 1.5em;
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
+h2.auTitle {
+  font-size: 1.25em;
+  padding-top: 36px;
+  padding-bottom: 24px;
+}
 @media screen and (min-width: 534px) {
   .logo {
     padding-bottom: 16px;
