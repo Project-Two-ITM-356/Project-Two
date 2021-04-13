@@ -180,6 +180,16 @@ ul.auWidget, ul.cuWidget {
   padding-top: 36px;
 }
 
+
+/*CSS Specfically for Contact Us*/
+form.main {
+  border: 4px solid #bbbbbb;
+  border-left: 4px solid #dddddd;
+  border-top: 4px solid #dddddd;
+  border-radius: 16px;
+  padding-top: 23px;
+  background: url('../img/formBackground.png');
+}
 @media screen and (min-width: 534px) {
   .logo {
     padding-bottom: 16px;
