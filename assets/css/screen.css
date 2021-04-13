@@ -180,6 +180,43 @@ ul.auWidget {
   padding-top: 36px;
 }
 
+/*CSS Specifically for Home Page*/
+
+h1.hTitle {
+  font-size: 1.5em;
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
+p.home1 {
+  font-size: 17px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+p.home2 {
+  font-size: 17px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+p.home3 {
+  font-size: 17px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+p.home4 {
+  font-size: 17px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+p.home5 {
+  font-size: 17px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.slideshow {
+  text-align: center;
+  width: 100%;
+}
+
 @media screen and (min-width: 534px) {
   .logo {
     padding-bottom: 16px;
@@ -269,4 +306,7 @@ ul.auWidget {
   }
   .auImage4 {
     width: 16%;
+  }
+  .slideshow{
+    width: 100%;
   }
