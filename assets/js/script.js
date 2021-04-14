@@ -1,3 +1,9 @@
+// jQuery 3.x-style ready event and locally scoped $
+jQuery(function($) {
+  $('html').removeClass('nojs');
+  $('html').addClass('hasjs');
+});
+
 //Automatic Slideshow
 var i = 0; // Start Point
 var images = []; // Images Array
