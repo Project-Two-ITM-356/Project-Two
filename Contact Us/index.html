@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../assets/css/reset.css"/>
     <link rel="stylesheet" href="../assets/css/screen.css"/>
+    <script src="../assets/js/script.js"></script>
   </head>
   <body>
     <header>
@@ -23,7 +24,7 @@
     <main class="About">
       <h1 class="cuTitle">Contact Us</h1>
       <div class="container">
-        <form class="main" method="get" autocomplete="on">
+        <form id="isudForm" class="main" method="get" action="#null" onsubmit="return validateForm()">
           <fieldset>
             <ul class="cuitems">
               <li class="cuitem">
