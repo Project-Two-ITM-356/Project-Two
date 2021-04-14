@@ -97,7 +97,6 @@ footer {
   border-top: 3px solid #dddddd;
   border-radius: 10px;
   padding-bottom: 24px;
-
 }
 .footerlist1, .footerlist2 {
   padding-top: 24px;
@@ -232,7 +231,7 @@ li.cuitem {
   padding-bottom: 16px;
   padding-left: 16px;
 }
-li.cuitem:last-child{
+li.cuitem:last-child {
   padding-top: 16px;
   padding-bottom: 24px;
 }
@@ -342,7 +341,6 @@ ul.cuWidget:last-child {
   ul.nav {
     padding-bottom: 13px;
   }
-}
 
 
 /*About Us CSS*/
@@ -372,6 +370,7 @@ ul.cuWidget:last-child {
   li.cuWidget {
     padding-bottom: 8px;
   }
+}
 
 
 @media screen and (min-width: 900px) {
