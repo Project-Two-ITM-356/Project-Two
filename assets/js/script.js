@@ -4,6 +4,18 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 
+function validateForm() {
+  var w = document.forms["main"]["name"].value;
+  var x = document.forms["main"]["email"].value;
+  var y = document.forms["main"]["message"].value;
+  if ((w == "")||(x == "")||(y == "")){
+    alert("Please fill in the missing entries");
+  }
+  else {
+    alert("Thank you for joining the Bakerie! See you soon with details in your inbox!")
+  }
+}
+
 //Automatic Slideshow
 var i = 0; // Start Point
 var images = []; // Images Array
