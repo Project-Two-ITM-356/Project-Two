@@ -103,7 +103,7 @@ footer {
 }
 .footerlist1, .footerlist2 {
   padding-top: 24px;
-  padding-left: 5%;
+  text-align: center;
 }
 .foot {
   text-decoration: none;
