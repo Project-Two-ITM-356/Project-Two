@@ -351,6 +351,12 @@ ul.cuWidget:last-child {
   textarea {
     width: 600px;
   }
+  div.auWidget {
+    width: auto;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-right: 24px;
+  }
   /* Navigation */
   .nav {
       display: flex;
