@@ -461,6 +461,16 @@ ul.cuWidget:last-child {
   }
   ul.nav {
     padding-bottom: 13px;
+  /*Footer*/
+  ul.footerlist1, ul.footerlist2 {
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  ul.footerlist2 {
+    float: right;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
 
