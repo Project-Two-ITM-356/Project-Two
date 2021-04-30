@@ -189,9 +189,9 @@ a.cuWidget:hover, a.auWidget:hover {
 }
 .auImage1 {
   float: left;
-  width: 30%;
-  padding-right: 16px;
+  width:30%;
   padding-top: 24px;
+  padding-right: 16px;
 }
 .auImage2 {
   float:right;
