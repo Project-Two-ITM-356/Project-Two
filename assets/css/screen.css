@@ -529,6 +529,15 @@ ul.cuWidget:last-child {
 
 
   /*About Us CSS*/
+  .aboutUs {
+    padding-top: 60px;
+    padding-bottom: 12px;
+    width:75%;
+  }
+  .aboutQuestions {
+    padding-left: 72px;
+    padding-bottom: 16px;
+  }
   .auImage1 {
     width: 20%;
   }
