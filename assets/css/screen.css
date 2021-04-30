@@ -551,7 +551,10 @@ ul.cuWidget:last-child {
   .auImage4 {
     width: 16%;
   }
-  .slideshow{
+  a.auWidget {
+    padding: 4px 36px 4px 36px;
+  }
+  .slideshow {
     width: 100%;
   }
 }
