@@ -577,4 +577,12 @@ ul.cuWidget:last-child {
     width: 500px;
   }
 }
+@media screen and (min-width: 1010px) {
+  .thirdChild {
+    margin-top: 24px;
+  }
+  textarea {
+    width: 550px;
+  }
+}
 }
