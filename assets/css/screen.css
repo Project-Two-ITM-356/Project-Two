@@ -305,6 +305,10 @@ ul.cuWidget:last-child {
 
 
   /*Contact Us CSS*/
+  textarea {
+    width: 400px;
+    height: 200px;
+  }
   button {
     margin-left: 15%;
   }
