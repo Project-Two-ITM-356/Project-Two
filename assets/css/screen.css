@@ -313,9 +313,6 @@ ul.cuWidget:last-child {
   }
 }
 
-@media screen and (min-width: 730px) {
-  header, nav, main, footer {
-    filter: drop-shadow(15px 10px 4px #929595);
   }
   /* Navigation */
   .nav {
