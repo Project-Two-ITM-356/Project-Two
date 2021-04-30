@@ -391,6 +391,18 @@ ul.cuWidget:last-child {
     border-radius: 50px;
     filter: drop-shadow(0px 20px 10px #2E557D);
   }
+  .home5 {
+    background-color: #8CC49D;
+    padding: 4px 24px 4px 24px;
+    margin-top: 24px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50px;
+    filter: drop-shadow(0px 12px 4px #2E557D);
+  }
+}
+
+@media screen and (min-width: 730px) {
   /* Navigation */
   .nav {
       display: flex;
