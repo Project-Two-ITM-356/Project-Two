@@ -291,7 +291,10 @@ button {
   overflow: visible;
   font: inherit;
   border-radius: 24px;
+  padding: 16px 10px 16px 10px;
   margin-left: 10%;
+  margin-top: 24px;
+  margin-bottom: 12px;
   background: rgb(227,163,47);
   background: linear-gradient(158deg, rgba(227,163,47,1) 0%, rgba(236,210,157,1) 62%, rgba(215,157,39,1) 100%);
 }
