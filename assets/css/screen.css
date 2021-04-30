@@ -97,8 +97,6 @@ main {
 
 /*footer formating*/
 footer {
-  border-top: 3px solid #dddddd;
-  border-radius: 10px;
   padding-bottom: 24px;
   background: rgb(14,53,94);
   background: linear-gradient(0deg, rgba(14,53,94,1) 0%, rgba(26,89,154,1) 30%, rgba(63,140,221,1) 100%);
