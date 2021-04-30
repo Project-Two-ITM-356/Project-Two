@@ -162,6 +162,14 @@ li.cuWidget, li.auWidget {
 li.cuWidget:last-child, li.auWidget:last-child {
   padding-bottom: 24px;
 }
+a.cuWidget, a.auWidget {
+  text-decoration: none;
+  background-color: #8CC49D;
+  border-radius: 50px;
+  padding: 8px 36px 8px 36px;
+}
+a.cuWidget:hover, a.auWidget:hover {
+  background-color: #12043B;
 }
 .aboutUs {
   font-size: 17px;
