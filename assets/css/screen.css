@@ -131,7 +131,7 @@ a.aFoot:hover {
 h1.auTitle, h1.cuTitle {
   font-size: 1.5em;
   padding-top: 12px;
-  padding-bottom: 8px;
+  padding-bottom: 16px;
 }
 h2.auTitle, h2.cuTitle {
   font-size: 1.25em;
