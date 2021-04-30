@@ -280,6 +280,11 @@ input, textarea {
   font-family: inherit;
   font-size: 18px;
 }
+textarea {
+  margin-bottom: 12px;
+  padding: 8px 10px 8px 10px;
+  width: 90%;
+  height: 300px;
 }
 button {
   border-color: transparent;
