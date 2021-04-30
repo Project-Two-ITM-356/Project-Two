@@ -461,6 +461,9 @@ ul.cuWidget:last-child {
   }
   ul.nav {
     padding-bottom: 13px;
+    filter: drop-shadow(0px 15px 4px #2e557d);
+  }
+
   /*Footer*/
   ul.footerlist1, ul.footerlist2 {
     float: left;
