@@ -313,6 +313,13 @@ ul.cuWidget:last-child {
   }
 }
 
+@media screen and (min-width: 578px) {
+  textarea {
+    width: 450px;
+    height: 200px;
+  }
+}
+
   }
   /* Navigation */
   .nav {
