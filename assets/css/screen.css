@@ -133,7 +133,7 @@ h1.auTitle, h1.cuTitle {
   padding-top: 12px;
   padding-bottom: 16px;
 }
-h2.auTitle, h2.cuTitle {
+h2.cuTitle, h2.auTitle {
   font-size: 1.25em;
   padding-top: 36px;
   padding-bottom: 24px;
