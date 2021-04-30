@@ -320,6 +320,11 @@ ul.cuWidget:last-child {
   }
 }
 
+@media screen and (min-width: 603px) {
+  button {
+    margin-right:24px;
+  }
+}
   }
   /* Navigation */
   .nav {
