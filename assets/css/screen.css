@@ -357,6 +357,10 @@ ul.cuWidget:last-child {
     padding-right: 18px;
     margin-right: 24px;
   }
+  /*Home*/
+  .slideshow {
+    margin-bottom: 24px;
+  }
   /* Navigation */
   .nav {
       display: flex;
