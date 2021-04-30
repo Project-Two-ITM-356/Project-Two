@@ -330,6 +330,13 @@ ul.cuWidget:last-child {
     width: 500px;
     height: 200px;
   }
+  .secondChild {
+    padding-top: 0;
+  }
+  input {
+    padding-right: 6px;
+  }
+}
   }
   /* Navigation */
   .nav {
