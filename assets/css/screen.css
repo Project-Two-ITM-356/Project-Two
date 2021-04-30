@@ -307,12 +307,6 @@ div.cuWidget {
   margin-top: 24px;
   padding-bottom: 24px;
 }
-h3.cuWidget{
-  margin-left: 20%;
-}
-ul.cuWidget {
-  margin-left: 25%;
-}
 ul.cuWidget:last-child {
   padding-bottom: 12px;
 }
