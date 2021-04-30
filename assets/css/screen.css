@@ -278,6 +278,8 @@ input, textarea {
   margin-left: 12px;
   border-radius: 12px;
   font-family: inherit;
+  font-size: 18px;
+}
 }
 button {
   border-color: transparent;
