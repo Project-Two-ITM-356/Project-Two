@@ -265,6 +265,8 @@ label {
   padding-left: 12px;
   float:left;
 }
+.firstChild {
+  padding-top: 0;
 }
 }
 input, textarea {
