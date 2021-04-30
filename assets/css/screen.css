@@ -331,8 +331,8 @@ ul.cuWidget:last-child {
     margin-top: 5%;
   }
   div.auWidget {
+    display: block;
     float: right;
-    padding-left: 36px;
   }
   h3.auWidget{
     margin-left: 10%;
