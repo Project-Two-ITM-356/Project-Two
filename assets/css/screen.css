@@ -154,7 +154,14 @@ div.auWidget, div.cuWidget {
 ul.auWidget, ul.cuWidget {
   margin-left: 25%;
   padding-bottom: 12px;
-  list-style-type: square;
+  list-style-type: none;
+}
+li.cuWidget, li.auWidget {
+  padding-bottom: 36px;
+}
+li.cuWidget:last-child, li.auWidget:last-child {
+  padding-bottom: 24px;
+}
 }
 .aboutUs {
   font-size: 17px;
