@@ -585,4 +585,17 @@ ul.cuWidget:last-child {
     width: 550px;
   }
 }
+@media screen and (min-width: 1088px) {
+  fieldset {
+    display: block
+  }
+  textarea {
+    width: 600px;
+  }
+  .secondChild {
+    margin-left: 56px;
+  }
+  button {
+    margin-left: 35%
+  }
 }
