@@ -110,6 +110,15 @@ footer {
   text-decoration: none;
   padding-bottom: 30px;
 }
+a.aFoot {
+  color: #ffffff;
+  padding: 4px 24px 4px 24px;
+  border-radius: 72px;
+  background: rgb(14,53,94);
+  background: linear-gradient(0deg, rgba(14,53,94,1) 0%, rgba(26,89,154,1) 30%, rgba(63,140,221,1) 100%);
+}
+a.aFoot:hover {
+  background: #271263;
 }
 .f1, .f2 {
   font-weight: bold;
