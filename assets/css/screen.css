@@ -501,6 +501,10 @@ ul.cuWidget:last-child {
   .cuLogo {
     width: 60%;
   }
+}
+@media screen and (min-width: 856px) {
+  textarea {
+    width: 450px;
   }
 }
 
