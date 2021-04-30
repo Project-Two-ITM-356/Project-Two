@@ -259,6 +259,12 @@ form.main {
   padding-top: 23px;
   background: url('../img/formBackground.png');
 }
+label {
+  display: block; /* add this */
+  padding-top: 12px;
+  padding-left: 12px;
+  float:left;
+}
 }
 }
 input, textarea {
