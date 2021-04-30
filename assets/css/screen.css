@@ -152,7 +152,6 @@ div.auWidget, div.cuWidget {
   text-align: center;
 }
 ul.auWidget, ul.cuWidget {
-  margin-left: 25%;
   padding-bottom: 12px;
   list-style-type: none;
 }
