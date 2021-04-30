@@ -30,7 +30,8 @@ header, nav, main, footer {
 /*Header Formating*/
 header {
   padding: 10px 12px 10px 12px;
-  border: 8px solid #efefef;
+  /*border: 8px solid #0E355E;*/
+  border-top:0;
   border-bottom: 0;
   background: rgb(14,53,94);
   background: linear-gradient(180deg, rgba(14,53,94,1) 0%, rgba(26,89,154,1) 30%, rgba(63,140,221,1) 100%);
