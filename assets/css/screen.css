@@ -460,12 +460,6 @@ ul.cuWidget:last-child {
       width: auto;
     }
   }
-  .nav a {
-    margin-right: 2px;
-  }
-  .nav li:last-child {
-    margin-right: 0;
-  }
   ul.nav {
     padding-bottom: 13px;
   }
