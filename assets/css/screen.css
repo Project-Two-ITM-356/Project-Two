@@ -142,8 +142,9 @@ h2.auTitle, h2.cuTitle {
 }
 h3.auWidget, h3.cuWidget {
   font-size: 1.15em;
-  padding-bottom: 12px;
-  margin-left: 20%;
+  padding-top: 12px;
+  padding-bottom: 36px;
+  text-decoration: underline;
 }
 div.auWidget, div.cuWidget {
   background-color: #086B26;
