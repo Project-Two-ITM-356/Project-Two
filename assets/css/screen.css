@@ -515,6 +515,7 @@ ul.cuWidget:last-child {
     filter: drop-shadow(15px 10px 4px #022951);
     padding-right: 20px;
   }
+  /*Footer*/
   ul.footerlist1, ul.footerlist2 {
     float: left;
     margin-left: auto;
