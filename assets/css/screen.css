@@ -557,4 +557,19 @@ ul.cuWidget:last-child {
   .slideshow {
     width: 100%;
   }
+
+
+
+
+  /*Contact*/
+  input {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+  button {
+    margin-left: 35%;
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+}
 }
