@@ -259,13 +259,7 @@ form.main {
   padding-top: 23px;
   background: url('../img/formBackground.png');
 }
-li.cuitem {
-  padding-bottom: 16px;
-  padding-left: 16px;
 }
-li.cuitem:last-child {
-  padding-top: 16px;
-  padding-bottom: 24px;
 }
 input, textarea {
   padding-left: 8px;
