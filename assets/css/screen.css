@@ -496,7 +496,7 @@ ul.cuWidget:last-child {
     margin-top: 4px;
   }
   textarea {
-    margin-left: 5%
+    width: 400px;
   }
   .cuLogo {
     width: 60%;
