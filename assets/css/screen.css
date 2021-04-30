@@ -8,7 +8,7 @@ html {
   line-height: 24px;
   color: #ffffff;
   padding: 12px;
-  background-color: #DBDCDC;
+  background-color: #0e355e;
 }
 @supports (display: grid) {
   /* No L/R padding when we have grid...*/
@@ -23,7 +23,7 @@ body {
 
 header, nav, main, footer {
   grid-column: 2/3;
-  background-color: #efefef;
+  background-color: #3f8cdd;
 }
 
 
@@ -33,7 +33,7 @@ header {
   border: 8px solid #efefef;
   border-bottom: 0;
   background: rgb(14,53,94);
-  background: linear-gradient(0deg, rgba(14,53,94,1) 0%, rgba(43,108,163,1) 45%, rgba(84,133,176,1) 100%);
+  background: linear-gradient(180deg, rgba(14,53,94,1) 0%, rgba(26,89,154,1) 30%, rgba(63,140,221,1) 100%);
 }
 .logo {
   padding-top: 16px;
@@ -59,8 +59,8 @@ header {
 .nav a {
   display: block;
   text-decoration: none;
-  background: rgb(83,132,175);
-  background: radial-gradient(circle, rgba(83,132,175,1) 0%, rgba(38,99,152,1) 49%, rgba(14,53,94,1) 100%);
+  background: rgb(14,53,94);
+  background: linear-gradient(0deg, rgba(14,53,94,1) 0%, rgba(26,89,154,1) 30%, rgba(63,140,221,1) 100%);
   color: white;
   padding: 16px;
   margin-right: auto;
@@ -77,7 +77,7 @@ ul.nav {
   border-bottom: 1px solid #DBDCDC;
 }
 .nav a:hover {
-  background: #22167a;
+  background: #271263;
 }
 .nav li:last-child {
   border-bottom: 0;
@@ -99,6 +99,8 @@ footer {
   border-top: 3px solid #dddddd;
   border-radius: 10px;
   padding-bottom: 24px;
+  background: rgb(14,53,94);
+  background: linear-gradient(0deg, rgba(14,53,94,1) 0%, rgba(26,89,154,1) 30%, rgba(63,140,221,1) 100%);
 }
 .footerlist1, .footerlist2 {
   padding-top: 24px;
@@ -134,6 +136,7 @@ h3.auWidget, h3.cuWidget {
   margin-left: 20%;
 }
 div.auWidget, div.cuWidget {
+  background-color: #086B26;
   padding-top: 8px;
   border: 4px groove #dddddd;
 }
