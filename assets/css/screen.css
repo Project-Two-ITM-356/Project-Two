@@ -518,10 +518,9 @@ ul.cuWidget:last-child {
   /*Footer*/
   ul.footerlist1, ul.footerlist2 {
     float: left;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
-    padding-left: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
   }
 
 
