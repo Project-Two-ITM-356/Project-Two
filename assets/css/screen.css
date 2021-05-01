@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/*Color Pallete https://paletton.com/#uid=53A0G0ktvi792zom5ocIWaJZe2w*/
 
 /*Overall Page Formating*/
 html {
   font-family: Comfortaa, Georgia, "Times New Roman", sans-serif;
   line-height: 24px;
+  color: #ffffff;
   padding: 12px;
-  background-color: #DBDCDC;
+  background-color: #0e355e;
 }
 @supports (display: grid) {
   /* No L/R padding when we have grid...*/
@@ -21,17 +23,18 @@ body {
 
 header, nav, main, footer {
   grid-column: 2/3;
-  background-color: #efefef;
+  background-color: #3f8cdd;
 }
 
 
 /*Header Formating*/
 header {
   padding: 10px 12px 10px 12px;
-  border: 8px solid #efefef;
+  /*border: 8px solid #0E355E;*/
+  border-top:0;
   border-bottom: 0;
   background: rgb(14,53,94);
-  background: linear-gradient(0deg, rgba(14,53,94,1) 0%, rgba(43,108,163,1) 45%, rgba(84,133,176,1) 100%);
+  background: linear-gradient(180deg, rgba(14,53,94,1) 0%, rgba(26,89,154,1) 30%, rgba(63,140,221,1) 100%);
 }
 .logo {
   padding-top: 16px;
@@ -57,25 +60,24 @@ header {
 .nav a {
   display: block;
   text-decoration: none;
-  background: rgb(83,132,175);
-  background: radial-gradient(circle, rgba(83,132,175,1) 0%, rgba(38,99,152,1) 49%, rgba(14,53,94,1) 100%);
+  background: rgb(14,53,94);
+  background: linear-gradient(0deg, rgba(14,53,94,1) 0%, rgba(26,89,154,1) 30%, rgba(63,140,221,1) 100%);
   color: white;
   padding: 16px;
   margin-right: auto;
 }
 ul.nav {
   padding-top: 8px;
-  border: 8px solid #efefef;
+  /*border: 8px solid #0E355E;*/
   border-bottom: 0;
   border-top: 0;
 }
 .nav li {
   text-align: center;
   margin-right: auto;
-  border-bottom: 1px solid #DBDCDC;
 }
 .nav a:hover {
-  background: #22167a;
+  background: #271263;
 }
 .nav li:last-child {
   border-bottom: 0;
@@ -84,7 +86,8 @@ ul.nav {
 
 /*Main Formating*/
 main {
-  border: 8px solid #efefef;
+  font-family: Nanum Gothic, Georgia, "Times New Roman", sans-serif;
+  border: 8px solid #3f8cdd;
   border-bottom: 0;
   border-top: 0;
   padding-top: 24px;
@@ -94,51 +97,78 @@ main {
 
 /*footer formating*/
 footer {
-  border-top: 3px solid #dddddd;
-  border-radius: 10px;
   padding-bottom: 24px;
+  background: rgb(14,53,94);
+  background: linear-gradient(0deg, rgba(14,53,94,1) 0%, rgba(26,89,154,1) 30%, rgba(63,140,221,1) 100%);
 }
 .footerlist1, .footerlist2 {
   padding-top: 24px;
-  padding-left: 5%;
+  text-align: center;
 }
 .foot {
-  padding-left: 12px;
   text-decoration: none;
-  padding-bottom: 8px;
+  padding-bottom: 30px;
+}
+a.aFoot {
+  color: #ffffff;
+  padding: 4px 24px 4px 24px;
+  border-radius: 72px;
+  background: rgb(14,53,94);
+  background: linear-gradient(0deg, rgba(14,53,94,1) 0%, rgba(26,89,154,1) 30%, rgba(63,140,221,1) 100%);
+}
+a.aFoot:hover {
+  background: #271263;
 }
 .f1, .f2 {
   font-weight: bold;
-  padding-bottom: 8px;
+  padding-bottom: 16px;
 }
+
 
 
 
 /*CSS Specifically for About Us Page*/
-
 h1.auTitle, h1.cuTitle {
   font-size: 1.5em;
   padding-top: 12px;
-  padding-bottom: 8px;
+  padding-bottom: 16px;
 }
-h2.auTitle, h2.cuTitle {
+h2.cuTitle, h2.auTitle {
   font-size: 1.25em;
   padding-top: 36px;
   padding-bottom: 24px;
 }
 h3.auWidget, h3.cuWidget {
   font-size: 1.15em;
-  padding-bottom: 12px;
-  margin-left: 20%;
+  padding-top: 12px;
+  padding-bottom: 36px;
+  text-decoration: underline;
 }
 div.auWidget, div.cuWidget {
+  background-color: #086B26;
   padding-top: 8px;
-  border: 4px groove #dddddd;
+  border: 4px solid #2C8F4A;
+  border-radius: 72px;
+  text-align: center;
 }
 ul.auWidget, ul.cuWidget {
-  margin-left: 25%;
   padding-bottom: 12px;
-  list-style-type: square;
+  list-style-type: none;
+}
+li.cuWidget, li.auWidget {
+  padding-bottom: 36px;
+}
+li.cuWidget:last-child, li.auWidget:last-child {
+  padding-bottom: 24px;
+}
+a.cuWidget, a.auWidget {
+  text-decoration: none;
+  background-color: #8CC49D;
+  border-radius: 50px;
+  padding: 8px 36px 8px 36px;
+}
+a.cuWidget:hover, a.auWidget:hover {
+  background-color: #12043B;
 }
 .aboutUs {
   font-size: 17px;
@@ -154,29 +184,29 @@ ul.auWidget, ul.cuWidget {
   padding-bottom: 12px;
 }
 .advertisement {
-  padding-top: 36px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 36px 24px 0px;
 }
 .auImage1 {
   float: left;
-  width: 30%;
-  padding-right: 16px;
+  width:30%;
   padding-top: 24px;
+  padding-right: 16px;
 }
 .auImage2 {
-  float:right;
+  float: right;
   width: 25%;
-  padding-top: 72px;
+  padding-top:72px;
 }
 .auImage3 {
   float: left;
   width: 20%;
+  padding-right: 12px;
 }
 .auImage4 {
   float: right;
   width: 28%;
   padding-top: 36px;
+  padding-left: 12px;
 }
 
 
@@ -220,6 +250,7 @@ p.home5 {
 
 /*CSS Specfically for Contact Us*/
 form.main {
+  font-size: 18px;
   border: 4px solid #bbbbbb;
   border-left: 4px solid #dddddd;
   border-top: 4px solid #dddddd;
@@ -227,25 +258,42 @@ form.main {
   padding-top: 23px;
   background: url('../img/formBackground.png');
 }
-li.cuitem {
-  padding-bottom: 16px;
-  padding-left: 16px;
+label {
+  display: block; /* add this */
+  padding-top: 12px;
+  padding-left: 12px;
+  float:left;
 }
-li.cuitem:last-child {
-  padding-top: 16px;
-  padding-bottom: 24px;
+.firstChild {
+  padding-top: 0;
+}
+input {
+  padding: 16px 10px 16px 10px;
+  margin-bottom: 8px;
+  width:90%;
 }
 input, textarea {
-  padding-left: 8px;
+  margin-top: 12px;
+  margin-left: 12px;
   border-radius: 12px;
   font-family: inherit;
+  font-size: 18px;
+}
+textarea {
+  margin-bottom: 12px;
+  padding: 8px 10px 8px 10px;
+  width: 90%;
+  height: 300px;
 }
 button {
   border-color: transparent;
   overflow: visible;
   font: inherit;
   border-radius: 24px;
+  padding: 16px 10px 16px 10px;
   margin-left: 10%;
+  margin-top: 24px;
+  margin-bottom: 12px;
   background: rgb(227,163,47);
   background: linear-gradient(158deg, rgba(227,163,47,1) 0%, rgba(236,210,157,1) 62%, rgba(215,157,39,1) 100%);
 }
@@ -258,12 +306,6 @@ div.cuWidget {
   margin-top: 24px;
   padding-bottom: 24px;
 }
-h3.cuWidget{
-  margin-left: 20%;
-}
-ul.cuWidget {
-  margin-left: 25%;
-}
 ul.cuWidget:last-child {
   padding-bottom: 12px;
 }
@@ -274,7 +316,7 @@ ul.cuWidget:last-child {
   margin-right: auto;
   border-radius: 48px;
   border: 4px solid #dddddd;
-  filter: drop-shadow(12px 18px 5px #bbbbbb);
+  filter: drop-shadow(12px 18px 5px #000F04);
 }
 
 @media screen and (min-width: 534px) {
@@ -288,18 +330,21 @@ ul.cuWidget:last-child {
     margin-top: 5%;
   }
   div.auWidget {
+    display: block;
     float: right;
-    padding-left: 36px;
+    width:42%;
+    /*padding-left: 36px;*/
   }
-  h3.auWidget{
-    margin-left: 10%;
-  }
-  ul.auWidget {
-    margin-left: 15%;
+  a.auWidget {
+    padding: 4px 8px 4px 8px;
   }
 
 
   /*Contact Us CSS*/
+  textarea {
+    width: 400px;
+    height: 200px;
+  }
   button {
     margin-left: 15%;
   }
@@ -308,10 +353,92 @@ ul.cuWidget:last-child {
   }
 }
 
-@media screen and (min-width: 730px) {
-  header, nav, main, footer {
-    filter: drop-shadow(15px 10px 4px #929595);
+@media screen and (min-width: 578px) {
+  textarea {
+    width: 450px;
+    height: 200px;
   }
+}
+
+@media screen and (min-width: 603px) {
+  button {
+    margin-right:24px;
+  }
+}
+@media screen and (min-width: 624px) {
+  textarea {
+    width: 500px;
+    height: 200px;
+  }
+  .secondChild {
+    padding-top: 0;
+  }
+  input {
+    padding-right: 6px;
+  }
+}
+@media screen and (min-width: 679px) {
+  textarea {
+    width: 550px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 729px) {
+  textarea {
+    width: 600px;
+  }
+  div.auWidget {
+    width: auto;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-right: 24px;
+  }
+  /*Home*/
+  .slideshow {
+    margin-bottom: 24px;
+  }
+  .home1 {
+    background-color: #8298AF;
+    padding: 4px 24px 4px 24px;
+    margin-left: 8%;
+    margin-right: 3%;
+    border-radius: 50px;
+    filter: drop-shadow(0px 12px 4px #2E557D);
+  }
+  .home2 {
+    background-color: #8CC49D;
+    padding: 4px 24px 4px 24px;
+    margin-left: 1%;
+    margin-right: 10%;
+    border-radius: 50px;
+    /**/
+  }
+  .home3 {
+    background-color: #9689B8;
+    padding: 4px 24px 4px 24px;
+    margin-left: 5%;
+    border-radius: 50px;
+    filter: drop-shadow(0px 0px 1px #493384);
+  }
+  .home4 {
+    background-color: #8298AF;
+    padding: 4px 24px 4px 24px;
+    margin-left: 2%;
+    border-radius: 50px;
+    filter: drop-shadow(0px 20px 10px #2E557D);
+  }
+  .home5 {
+    background-color: #8CC49D;
+    padding: 4px 24px 4px 24px;
+    margin-top: 24px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50px;
+    filter: drop-shadow(0px 12px 4px #2E557D);
+  }
+}
+
+@media screen and (min-width: 730px) {
   /* Navigation */
   .nav {
       display: flex;
@@ -332,14 +459,21 @@ ul.cuWidget:last-child {
       width: auto;
     }
   }
-  .nav a {
-    margin-right: 2px;
-  }
-  .nav li:last-child {
-    margin-right: 0;
-  }
   ul.nav {
     padding-bottom: 13px;
+    filter: drop-shadow(0px 15px 4px #2e557d);
+  }
+
+  /*Footer*/
+  ul.footerlist1, ul.footerlist2 {
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  ul.footerlist2 {
+    float: right;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
 
@@ -362,13 +496,15 @@ ul.cuWidget:last-child {
     margin-top: 4px;
   }
   textarea {
-    margin-left: 5%
+    width: 400px;
   }
   .cuLogo {
     width: 60%;
   }
-  li.cuWidget {
-    padding-bottom: 8px;
+}
+@media screen and (min-width: 856px) {
+  textarea {
+    width: 450px;
   }
 }
 
@@ -379,16 +515,29 @@ ul.cuWidget:last-child {
     filter: drop-shadow(15px 10px 4px #022951);
     padding-right: 20px;
   }
+  /*Footer*/
   ul.footerlist1, ul.footerlist2 {
     float: left;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
-    padding-left: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  ul.footerlist2 {
+    float: right;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
 
   /*About Us CSS*/
+  .aboutUs {
+    padding-top: 60px;
+    padding-bottom: 12px;
+    width:75%;
+  }
+  .aboutQuestions {
+    padding-left: 72px;
+    padding-bottom: 16px;
+  }
   .auImage1 {
     width: 20%;
   }
@@ -402,7 +551,51 @@ ul.cuWidget:last-child {
   .auImage4 {
     width: 16%;
   }
-  .slideshow{
+  a.auWidget {
+    padding: 4px 36px 4px 36px;
+  }
+  .slideshow {
     width: 100%;
+  }
+
+
+
+
+  /*Contact*/
+  input {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+  button {
+    margin-left: 35%;
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (min-width: 934px) {
+  textarea {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 1010px) {
+  .thirdChild {
+    margin-top: 24px;
+  }
+  textarea {
+    width: 550px;
+  }
+}
+@media screen and (min-width: 1088px) {
+  fieldset {
+    display: block
+  }
+  textarea {
+    width: 600px;
+  }
+  .secondChild {
+    margin-left: 56px;
+  }
+  button {
+    margin-left: 35%
   }
 }

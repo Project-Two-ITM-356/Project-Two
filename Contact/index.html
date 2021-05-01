@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-      <img class="logo" src="../assets/img/ISUD_Logo_color.jpeg" alt="Logo for the ISUD">
+      <img class="logo" src="../assets/img/logo.jpeg" alt="Logo for the ISUD">
       <h1 class="title">The International Society for Universal Dialogue</h1>
     </header>
     <nav id="navigation">
@@ -20,69 +20,48 @@
         <li><a href="../About/index.html">About Us</a></li>
         <li><a href="#">ISUD Announcements and Events</a></li>
         <li><a href="/">Contact</a></li>
-
       </ul>
     </nav>
-    <main class="About">
+    <main class="contact">
       <h1 class="cuTitle">Contact Us</h1>
       <div class="container">
         <form id="isudForm" class="main" method="get" action="#null" onsubmit="return validateForm()">
           <fieldset>
-            <ul class="cuitems">
-              <li class="cuitem">
-                <label for="name">
-                  Name:
-                  <input id="name" class="inactive" type="text" name="user_name">
-                </label>
-              </li>
-              <li class="cuitem">
-                <label for="email">
-                  Email:
-                  <input id="email" class="inactive" type="email" name="user_email">
-                </label>
-              </li>
-              <li class="cuitem">
-                <label for="message">
-                  Message:
-                </label>
-                <br>
-                <div class="spacing">
-                  &nbsp;
-                </div>
-                <textarea id="message" class="inactive" name="message" rows="5" cols="25"></textarea>
-              </li>
-              <li class="cuitem">
-                <button type="submit" name="user_submit" value="Submit">Send Your Message</button>
-              </li>
-            </ul>
+              <label class="firstChild" for="name">Name: <input id="name" class="inactive" type="text" name="user_name"></label>
+
+              <label class="secondChild" for="email">Email: <input id="email" class="inactive" type="email" name="user_email"></label>
+
+              <label class="thirdChild" for="message">Message: <textarea id="message" class="inactive" name="message"></textarea></label>
+
+              <button type="submit" name="user_submit" value="Submit">Send Your Message!</button>
           </fieldset>
         </form>
         <div class="cuWidget">
           <h3 class="cuWidget">Contact Us Navigation</h3>
           <ul class="cuWidget">
             <li class="cuWidget">
-              <a href="#">Contact Us: Main Page</a>
+              <a class="cuWidget" href="#">Contact Us: Main Page</a>
             </li>
             <li class="cuWidget">
-              <a href="#">Join Membership</a>
+              <a class="cuWidget"  href="#">Join Membership</a>
             </li>
           </ul>
-          <img class="cuLogo" src="../assets/img/ISUD_Logo_color.jpeg" alt="Logo for the ISUD">
+          <img class="cuLogo" src="../assets/img/logo.jpeg" alt="Logo for the ISUD">
         </div>
       </div>
     </main>
     <footer id="footer">
       <ul class="footerlist1">
         <li class="f1">Staff and Contact Info</li>
-        <li class="foot"><a href="/">Contact Us</a></li>
-        <li class="foot"><a href="#">Membership</a></li>
+        <li class="foot"><a class="aFoot" href="/">Contact Us</a></li>
+        <li class="foot"><a class="aFoot" href="#">Membership</a></li>
       </ul>
       <ul class="footerlist2">
         <li class="f2">ISUD Events and Videos</li>
-        <li class="foot"><a href="#">Upcoming Events</a></li>
-        <li class="foot"><a href="#">Past Events</a></li>
-        <li class="foot"><a href="#">Featured Videos</a></li>
-        <li class="foot"><a href="#">All Videos</a></li>
+        <li class="foot"><a class="aFoot" href="#">Upcoming Events</a></li>
+        <li class="foot"><a class="aFoot" href="#">Past Events</a></li>
+        <li class="foot"><a class="aFoot" href="#">Featured Videos</a></li>
+        <li class="foot"><a class="aFoot" href="#">All Videos</a></li>
       </ul>
     </footer>
   </body>
