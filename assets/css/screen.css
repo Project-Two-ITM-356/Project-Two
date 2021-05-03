@@ -482,7 +482,13 @@ ul.cuWidget:last-child {
     padding-top: 60px;
   }
 
+@media screen and (min-width: 828px) {
+  textarea {
+    width: 700px;
+  }
+}
 
+@media screen and (min-width: 841px) {
   /*Contact Us CSS*/
   div.container {
     display:flex;
