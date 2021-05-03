@@ -249,6 +249,11 @@ p.home5 {
 
 
 /*CSS Specfically for Contact Us*/
+h1.cuTitle {
+  font-size: 1.5em;
+  padding-top: 12px;
+  padding-bottom: 16px;
+}
 form.main {
   font-size: 18px;
   border: 4px solid #bbbbbb;
