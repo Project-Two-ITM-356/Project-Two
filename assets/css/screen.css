@@ -145,6 +145,7 @@ h3.auWidget, h3.cuWidget {
   text-decoration: underline;
 }
 div.auWidget, div.cuWidget {
+  order: 1;
   background-color: #086B26;
   padding-top: 8px;
   border: 4px solid #2C8F4A;
