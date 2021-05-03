@@ -322,6 +322,12 @@ ul.cuWidget:last-child {
 @media screen and (min-width: 534px) {
 
 /*About Us CSS*/
+  main.About {
+    display:block;
+  }
+  .flexfix {
+    padding-bottom: 0;
+  }
   .logo {
     padding-bottom: 16px;
     filter: drop-shadow(10px 10px 4px #022951);
