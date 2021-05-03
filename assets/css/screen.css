@@ -130,8 +130,6 @@ a.aFoot:hover {
 /*CSS Specifically for About Us Page*/
 h1.auTitle, h1.cuTitle {
   font-size: 1.5em;
-  padding-top: 12px;
-  padding-bottom: 16px;
 }
 h2.cuTitle, h2.auTitle {
   font-size: 1.25em;
