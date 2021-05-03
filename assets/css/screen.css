@@ -128,7 +128,14 @@ a.aFoot:hover {
 
 
 /*CSS Specifically for About Us Page*/
-h1.auTitle, h1.cuTitle {
+.About {
+  display: flex;
+  flex-direction: column;
+}
+.flexfix {
+  padding-bottom: 36px;
+}
+h1.auTitle {
   font-size: 1.5em;
 }
 h2.cuTitle, h2.auTitle {
