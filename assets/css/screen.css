@@ -377,7 +377,7 @@ ul.cuWidget:last-child {
     padding-right: 6px;
   }
 }
-@media screen and (min-width: 679px) {
+@media screen and (min-width: 674px) {
   textarea {
     width: 550px;
     height: 200px;
