@@ -599,3 +599,8 @@ ul.cuWidget:last-child {
     margin-left: 35%
   }
 }
+@media screen and (min-width: 1164px) {
+  textarea {
+    width: 650px;
+  }
+}
