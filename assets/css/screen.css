@@ -481,6 +481,13 @@ ul.cuWidget:last-child {
   .auImage2 {
     padding-top: 60px;
   }
+}
+
+@media screen and (min-width: 778px) {
+  textarea {
+    width: 650px;
+  }
+}
 
 @media screen and (min-width: 828px) {
   textarea {
