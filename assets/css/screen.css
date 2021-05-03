@@ -383,10 +383,11 @@ ul.cuWidget:last-child {
     height: 200px;
   }
 }
-@media screen and (min-width: 729px) {
+@media screen and (min-width: 723px) {
   textarea {
     width: 600px;
   }
+
   div.auWidget {
     width: auto;
     padding-left: 18px;
