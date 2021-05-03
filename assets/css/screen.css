@@ -353,7 +353,7 @@ ul.cuWidget:last-child {
   }
 }
 
-@media screen and (min-width: 578px) {
+@media screen and (min-width: 570px) {
   textarea {
     width: 450px;
     height: 200px;
